@@ -11,6 +11,20 @@
 	                </div>
 
 
+					<div class="col-lg-4 col-sm-6">
+	                    <div class="single-footer-widget ps-3">
+	                        <h3>Links rapidos</h3>
+	                        <ul class="custom-links">
+	                            <li><a href="#">Inicio</a></li>
+	                            <li><a href="#">Compra</a></li>
+	                            <li><a href="#">Alquiler</a></li>
+	                            <li><a href="#">Contacto</a></li>
+	                           
+	                        </ul>
+	                    </div>
+	                </div>
+
+
 					<div class="col-lg-4 col-sm-6 ">
 	                    <div class="single-footer-widget">
 	                        <h3>Información de contacto</h3>
@@ -32,18 +46,7 @@
 	                    </div>
 	                </div>
 
-	                <div class="col-lg-4 col-sm-6">
-	                    <div class="single-footer-widget ps-3">
-	                        <h3>Links rapidos</h3>
-	                        <ul class="custom-links">
-	                            <li><a href="#">Inicio</a></li>
-	                            <li><a href="#">Compra</a></li>
-	                            <li><a href="#">Alquiler</a></li>
-	                            <li><a href="#">Contacto</a></li>
-	                           
-	                        </ul>
-	                    </div>
-	                </div>
+	                
 	                
                 </div>
 			</div>
