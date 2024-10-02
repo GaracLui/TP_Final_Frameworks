@@ -3,6 +3,14 @@
 			<div class="container">
 				<div class="row ">
 
+					<div class="col-lg-4 col-sm-6">
+	                    <div class="single-footer-widget ps-3">
+	                        <h3>Logo</h3>
+	                        <p>Nuestras unidades destacadas de la semena, unidades recomendadas, habitables, comunable y acuntables</p>
+	                    </div>
+	                </div>
+
+
 					<div class="col-lg-4 col-sm-6 ">
 	                    <div class="single-footer-widget">
 	                        <h3>Información de contacto</h3>
