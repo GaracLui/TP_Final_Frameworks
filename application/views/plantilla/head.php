@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Inmobiliaria ????????</title>
 
+	// normaizado no contemplado en bootstrap por defecto
 	<link rel="stylesheet" href="<?php echo base_url(); ?>bootstrap/css/normalize">
 
 	<link rel="stylesheet" href="<?php echo base_url(); ?>bootstrap/css/bootstrap.min.css">
