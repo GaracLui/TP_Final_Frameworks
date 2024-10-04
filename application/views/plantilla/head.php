@@ -34,17 +34,17 @@
 				  	</button>
 
 				  	<div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-					    <ul class="navbar-nav ml-auto">
-					      	<li class="nav-item">
+					    <ul class="navbar-nav ml-auto ">
+					      	<li class="nav-item pr-5">
 					        	<a class="nav-link" href="#">Inicio</a>
 					      	</li>
-					      	<li class="nav-item">
+					      	<li class="nav-item  pr-5">
 					        	<a class="nav-link" href="#">Compra</a>
 					      	</li>
-					      	<li class="nav-item">
+					      	<li class="nav-item pr-5">
 					        	<a class="nav-link" href="#">Alquiler</a>
 					      	</li>
-					      	<li class="nav-item">
+					      	<li class="nav-item  pr-5">
 					        	<a class="nav-link" href="#">Contacto</a>
 					      	</li>
 					      
