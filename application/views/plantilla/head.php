@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Inmobiliaria ????????</title>
+	<title>Harmonia Inmobiliaria</title>
 
 
 	<link rel="stylesheet" href="<?php echo base_url(); ?>bootstrap/css/normalize">
@@ -23,7 +23,7 @@
 					<div class="text-center">
 						
 
-				  		<a class="navbar-brand " fla href="#"><img src="<?php echo base_url(); ?>bootstrap/img/Harmonia_Text_Black.png" alt="Harmonia Inmobiliaria" style="max-width: 200px; max-height: 70px;"></a>
+				  		<a class="navbar-brand " fla href="#"><img src="<?php echo base_url(); ?>bootstrap/img/Harmonia_Text_Black.png" alt="Harmonia Inmobiliaria" style="max-width: 250px; max-height: 60px;"></a>
 
 				  	</div>
 			  	</div>
