@@ -110,7 +110,7 @@
 		</div>
 	</div>
 	
-</div>
+	</div>
 
 <div class="properties-area pt-5 pb-5">
 	<div class="container">

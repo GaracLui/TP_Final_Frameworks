@@ -5,7 +5,7 @@
 
 					<div class="col-lg-4 col-sm-6">
 	                    <div class="single-footer-widget ps-3">
-	                        <h3>Logo</h3>
+	                        <a class="navbar-brand " fla href="#"><img src="<?php echo base_url(); ?>bootstrap/img/Harmonia_Text_White.png" alt="Harmonia Inmobiliaria" style="max-width: 200px; max-height: 70px;"></a>
 	                        <p>Nuestras unidades destacadas de la semena, unidades recomendadas, habitables, comunable y acuntables</p>
 	                    </div>
 	                </div>
