@@ -6,7 +6,7 @@
 	<title>Harmonia Inmobiliaria</title>
 
 
-	<link rel="stylesheet" href="<?php echo base_url(); ?>bootstrap/css/normalize.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>cambios/css/normalize.css">
 
 	<link rel="stylesheet" href="<?php echo base_url(); ?>bootstrap/css/bootstrap.min.css">
 
@@ -15,44 +15,37 @@
 
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light mb-5 shadow-sm">
-		<div class="container-fluid p-1">
-			<div class="row">
-				<div class="col">
-					
-					</div>
-					<div class="text-center">
-						
+		<div class="container-fluid p-2">
+			
 
-				  		<a class="navbar-brand " fla href="#"><img src="<?php echo base_url(); ?>bootstrap/img/Harmonia_Text_Black.png" alt="Harmonia Inmobiliaria" style="max-width: 250px; max-height: 60px;"></a>
-
-				  	</div>
-			  	</div>
+		  	<a class="navbar-brand pl-1" fla href="#"><img src="<?php echo base_url(); ?>cambios/img/Harmonia_Text_Black.png" alt="Harmonia Inmobiliaria" style="max-width: 250px; max-height: 60px;"></a>
 
 
-				  	<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				    <span class="navbar-toggler-icon"></span>
-				  	</button>
 
-				  	<div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-					    <ul class="navbar-nav ml-auto ">
-					      	<li class="nav-item pr-5">
-					        	<a class="nav-link" href="#">Inicio</a>
-					      	</li>
-					      	<li class="nav-item  pr-5">
-					        	<a class="nav-link" href="#">Compra</a>
-					      	</li>
-					      	<li class="nav-item pr-5">
-					        	<a class="nav-link" href="#">Alquiler</a>
-					      	</li>
-					      	<li class="nav-item  pr-5">
-					        	<a class="nav-link" href="#">Contacto</a>
-					      	</li>
-					      
-					    </ul>
-				  	</div>
+		  	<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  	</button>
+
+		  	<div class="collapse navbar-collapse text-center " id="navbarSupportedContent">
+			    <ul class="navbar-nav ml-auto font-weight-bold">
+			      	<li class="nav-item pr-5">
+			        	<a class="nav-link text-dark" href="#">Inicio</a>
+			      	</li>
+			      	<li class="nav-item  pr-5">
+			        	<a class="nav-link text-dark " href="#">Compra</a>
+			      	</li>
+			      	<li class="nav-item pr-5">
+			        	<a class="nav-link text-dark " href="#">Alquiler</a>
+			      	</li>
+			      	<li class="nav-item  pr-5">
+			        	<a class="nav-link text-dark " href="#">Contacto</a>
+			      	</li>
+			      
+			    </ul>
+		  	</div>
 				
-			</div>
-	  	</div>
+		</div>
+	  	
 	</nav>
 
 
