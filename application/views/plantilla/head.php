@@ -14,7 +14,7 @@
 <body>
 
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light mb-5 shadow-sm">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light  shadow-sm">
 		<div class="container-fluid p-2">
 			
 
