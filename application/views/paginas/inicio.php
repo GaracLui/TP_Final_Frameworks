@@ -124,23 +124,19 @@
 			<div class="col-xl-4 col-md-6">
 				<div class="card">
 					
-						<div class="image-container">
-
-    						<div class="first">
-    							
-    							<div class="d-flex justify-content-between align-items-center">
-
-    							<span class="propeties">Tipo de propiedad</span>
-    							
-    							
-
-    						    </div>
-    						</div>
-
-    						<img src="https://i.imgur.com/8JIWpnw.jpg" class="img-fluid rounded thumbnail-image">
-    						
-
-    					</div>
+					<img src="<?php echo base_url(); ?>assets/img/properties/properties1.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<div class="top">
+							<div class="title col-7">
+								<h5 class="card-title">Casa Vacacional</h5>
+					    	<span>194 Mercer Street, NY 10012, USA</span>
+							</div>
+							
+							<div class="price col-4" style="display: block;">$95,000</div>
+						</div>
+					    
+					    
+					</div>
 
 				</div>
 			</div>
