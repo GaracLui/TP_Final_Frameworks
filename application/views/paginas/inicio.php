@@ -123,18 +123,58 @@
 		<div class="row justify-content-center">
 			<div class="col-xl-4 col-md-6">
 				<div class="card">
+
+					<div class="properties-image">
+						<a href="">
+							<img src="<?php echo base_url(); ?>assets/img/properties/properties1.jpg" class="card-img-top" alt="...">
+						</a>
+						<div class="info-list">
+							<ul style="list-style-type:none;">
+								<li>
+									<div class="icon">
+										<img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="Cuartos">
+									</div>
+									<span>6</span>
+								</li>
+								<li>
+									<div class="icon">
+										<img src="<?php echo base_url(); ?>assets/img/properties/bathroom.svg" alt="Baños">
+									</div>
+									<span>4</span>
+								</li>
+								<li>
+									<div class="icon">
+										<img src="<?php echo base_url(); ?>assets/img/properties/area.svg" alt="Metros cuadrados">
+									</div>
+									<span>3250</span>
+								</li>
+							</ul>
+						</div>
+					</div>
 					
-					<img src="<?php echo base_url(); ?>assets/img/properties/properties1.jpg" class="card-img-top" alt="...">
 					<div class="card-body">
-						<div class="top">
-							<div class="title col-7">
+
+						<div class="top p-0 m-0 ">
+							<div class="title p-0 m-0">
 								<h5 class="card-title">Casa Vacacional</h5>
 					    	<span>194 Mercer Street, NY 10012, USA</span>
 							</div>
 							
-							<div class="price col-4" style="display: block;">$95,000</div>
+							<div class="price pt-1 mt-1 float-right">
+								<p>$95,000</p>
+							</div>
 						</div>
+
+						
 					    
+					    <div class="bottom mt-4 pt-4">
+					    	<div class="user">
+					    		<a href="agent-profile.html">Thomas Klarck</a>
+					    	</div>
+					    	<div class="group-info">
+					    		
+					    	</div>
+					    </div>
 					    
 					</div>
 
