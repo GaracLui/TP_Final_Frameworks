@@ -1,2 +1,61 @@
+li {
+  list-style-type: none;
+}
 
+.card:hover .hidden-details {
+  display: block;
+}
 
+.hidden-details {
+  display: none;
+}
+/*
+.properties-item .properties-image .info-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 20px 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.properties-item .properties-image .info-list li {
+  list-style-type: none;
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+}
+.properties-item .properties-image .info-list li:last-child {
+  margin-right: 0;
+}
+.properties-item .properties-image .info-list li .icon {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #A68E74;
+  position: relative;
+  transition: 0.6s;
+}
+.properties-item .properties-image .info-list li .icon img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.properties-item .properties-image .info-list li span {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  margin-left: 7px;
+}
+.properties-item .properties-image .info-list li:hover .icon {
+  background-color: #1B6F58;
+}
+
+*/

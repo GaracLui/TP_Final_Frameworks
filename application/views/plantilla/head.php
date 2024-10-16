@@ -15,7 +15,7 @@
 </head>
 <body>
 
-
+<?php echo base_url(); ?>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light  shadow-sm">
 		<div class="container-fluid pr-4 pl-4 pt-2 pb-2">
 			
