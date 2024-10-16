@@ -1,5 +1,5 @@
 	<footer >
-		<div class="footer-area pt-4 pb-4 bg-dark text-white ">
+		<div class="footer-area pt-4 pb-4 pr-1 pl-1  bg-dark text-white ">
 			<div class="container">
 				<div class="row ">
 

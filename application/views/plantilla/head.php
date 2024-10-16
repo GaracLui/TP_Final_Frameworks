@@ -8,6 +8,8 @@
 
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/normalize.css">
 
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/stilos.css">
+
 	<link rel="stylesheet" href="<?php echo base_url(); ?>bootstrap/css/bootstrap.min.css">
 
 </head>
@@ -15,7 +17,7 @@
 
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light  shadow-sm">
-		<div class="container-fluid p-2">
+		<div class="container-fluid pr-4 pl-4 pt-2 pb-2">
 			
 
 		  	<a class="navbar-brand pl-1" fla href="#"><img src="<?php echo base_url(); ?>assets/img/logo/harmonia_text_black.png" alt="Harmonia Inmobiliaria" style="max-width: 250px; max-height: 60px;"></a>

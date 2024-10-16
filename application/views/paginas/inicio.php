@@ -121,15 +121,16 @@
 		</div>
 
 		<div class="row justify-content-center">
+
 			<div class="col-xl-4 col-md-6">
-				<div class="card">
+				<div class="card properties-item" style="background-color: #f1f0eb">
 
 					<div class="properties-image">
 						<a href="">
 							<img src="<?php echo base_url(); ?>assets/img/properties/properties1.jpg" class="card-img-top" alt="...">
 						</a>
 						<div class="info-list">
-							<ul style="list-style-type:none;">
+							<ul>
 								<li>
 									<div class="icon">
 										<img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="Cuartos">
@@ -152,7 +153,7 @@
 						</div>
 					</div>
 					
-					<div class="card-body">
+					<div class="card-body properties-content">
 
 						<div class="top p-0 m-0 ">
 							<div class="title p-0 m-0">
@@ -181,6 +182,126 @@
 				</div>
 			</div>
 			
+			<div class="col-xl-4 col-md-6">
+				<div class="card properties-item" style="background-color: #f1f0eb">
+
+					<div class="properties-image">
+						<a href="">
+							<img src="<?php echo base_url(); ?>assets/img/properties/properties2.jpg" class="card-img-top" alt="...">
+						</a>
+						<div class="info-list">
+							<ul>
+								<li>
+									<div class="icon">
+										<img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="Cuartos">
+									</div>
+									<span>3</span>
+								</li>
+								<li>
+									<div class="icon">
+										<img src="<?php echo base_url(); ?>assets/img/properties/bathroom.svg" alt="Baños">
+									</div>
+									<span>1</span>
+								</li>
+								<li>
+									<div class="icon">
+										<img src="<?php echo base_url(); ?>assets/img/properties/area.svg" alt="Metros cuadrados">
+									</div>
+									<span>5250</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="card-body properties-content">
+
+						<div class="top p-0 m-0 ">
+							<div class="title p-0 m-0">
+								<h5 class="card-title">Espacio Industrial</h5>
+					    	<span>577 Street, NY 90012, ASU</span>
+							</div>
+							
+							<div class="price pt-1 mt-1 float-right">
+								<p>$45,909</p>
+							</div>
+						</div>
+
+						
+					    
+					    <div class="bottom mt-4 pt-4">
+					    	<div class="user">
+					    		<a href="agent-profile.html">Samohta Klarck</a>
+					    	</div>
+					    	<div class="group-info">
+					    		
+					    	</div>
+					    </div>
+					    
+					</div>
+
+				</div>
+			</div>
+
+<div class="col-xl-4 col-md-6">
+				<div class="card properties-item" style="background-color: #f1f0eb">
+
+					<div class="properties-image">
+						<a href="">
+							<img src="<?php echo base_url(); ?>assets/img/properties/properties3.jpg" class="card-img-top" alt="...">
+						</a>
+						<div class="info-list position-relative">
+							<ul class="m-0 p-0">
+								<li class="float-left">
+									<div class="icon">
+										<img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="Cuartos">
+									</div>
+									<span>3</span>
+								</li>
+								<li class="float-left">
+									<div class="icon">
+										<img src="<?php echo base_url(); ?>assets/img/properties/bathroom.svg" alt="Baños">
+									</div>
+									<span>1</span>
+								</li>
+								<li class="float-left">
+									<div class="icon">
+										<img src="<?php echo base_url(); ?>assets/img/properties/area.svg" alt="Metros cuadrados">
+									</div>
+									<span>5250</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="card-body properties-content">
+
+						<div class="top p-0 m-0 ">
+							<div class="title p-0 m-0">
+								<h5 class="card-title">Pacio Indus</h5>
+					    	<span>577 Street, NY 90012, ASU</span>
+							</div>
+							
+							<div class="price pt-1 mt-1 float-right">
+								<p>$1111,909</p>
+							</div>
+						</div>
+
+						
+					    
+					    <div class="bottom mt-4 pt-4">
+					    	<div class="user">
+					    		<a href="agent-profile.html">Samohta Klarck</a>
+					    	</div>
+					    	<div class="group-info">
+					    		
+					    	</div>
+					    </div>
+					    
+					</div>
+
+				</div>
+			</div>
+
 		</div>
 
 
