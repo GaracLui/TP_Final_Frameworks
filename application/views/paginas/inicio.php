@@ -313,7 +313,7 @@
 </div>
 
 
-// ofertas
+<!--ofertas-->
 <div class="properties-area p-5 " style="background-color: #f1f0eb;">
 	<div class="container">
 

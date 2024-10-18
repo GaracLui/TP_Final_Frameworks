@@ -10,5 +10,26 @@ class Inmobiliaria extends CI_Controller {
 		$this->load->view('plantilla/footer');
 	}
 
+	public function propiedad()
+	{
+		
+		$this->load->view('plantilla/head');
+		$this->load->view('paginas/propiedad');
+		$this->load->view('plantilla/footer');
+	}
+
+	public function contacto()
+	{
+		$this->load->view('plantilla/head');
+		$this->load->view('paginas/contacto');
+		$this->load->view('plantilla/footer');
+	}
+
+	public function filtro()
+	{
+		$this->load->view('plantilla/head');
+		$this->load->view('paginas/filtro');
+		$this->load->view('plantilla/footer');
+	}
 
 }
