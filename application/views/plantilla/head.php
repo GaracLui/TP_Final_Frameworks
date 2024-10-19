@@ -20,7 +20,7 @@
 		<div class="container-fluid pr-4 pl-4 pt-2 pb-2">
 			
 
-		  	<a class="navbar-brand pl-1" fla href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/img/logo/harmonia_text_black.png" alt="Harmonia Inmobiliaria" style="max-width: 250px; max-height: 60px;"></a>
+		  	<a class="navbar-brand pl-1" fla href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/img/logo/harmonia_text_black.png" alt="Harmonia Inmobiliaria" class="logo-image"></a>
 
 
 

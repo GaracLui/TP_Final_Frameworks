@@ -1,20 +1,20 @@
 	<footer >
-		<div class="footer-area pt-4 pb-4 pr-1 pl-1  bg-dark text-white ">
+		<div class="footer-area pt-4 pb-4 px-1  bg-dark text-white ">
 			<div class="container">
 				<div class="row ">
 
-					<div class="col-lg-4 col-md-12 col-sm-6">
+					<div class="col-lg-4 col-md-12 col-sm-6 py-3">
 	                    <div class="single-footer-widget ps-3">
-	                        <a class="navbar-brand " fla href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/img/logo/harmonia_text_white.png" alt="Harmonia Inmobiliaria" style="max-width: 250px; max-height: 60px;"></a>
-	                        <p>Nuestras unidades destacadas de la semena, unidades recomendadas, habitables, comunable y acuntables</p>
+	                        <a class="navbar-brand " fla href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/img/logo/harmonia_text_white.png" alt="Harmonia Inmobiliaria" class="logo-image""></a>
+	                        <p>Harmonia Inmobiliaria. Compra, venta, alquiler y administración de propiedades. Construyendo hogares, creando futuros. Nuestra pasión es ayudarte a encontrar tu lugar en el mundo.</p>
 	                    </div>
 	                </div>
 
 
-					<div class="col-lg-4 col-sm-6">
+					<div class="col-lg-4 col-sm-6 py-3">
 	                    <div class="single-footer-widget ps-3">
 	                        <h3>Links rapidos</h3>
-	                        <ul class="custom-links">
+	                        <ul class="custom-links pl-1">
 	                            <li><a href="<?php echo base_url(); ?>">Inicio</a></li>
 	                            <li><a href="<?php echo base_url(); ?>inmobiliaria/filtro">Compra</a></li>
 	                            <li><a href="<?php echo base_url(); ?>inmobiliaria/filtro">Alquiler</a></li>
@@ -25,10 +25,10 @@
 	                </div>
 
 
-					<div class="col-lg-4 col-sm-6 ">
+					<div class="col-lg-4 col-sm-6 py-3">
 	                    <div class="single-footer-widget">
 	                        <h3>Información de contacto</h3>
-	                        <ul class="info-list">
+	                        <ul class="info-list pl-1">
 	                            <li>
 	                                <span>Dirección:</span>
 	                                285 avenida Este, Pueblo descripto, Pais especificado

@@ -7,7 +7,8 @@
     </div>
 </div>
 
-<div class="col-12 py-3">
+<div class="container">
+    <div class="col-lg-12 align-items-center py-5">
     <div class="contact-wrap-form">
         <h3>Get In Touch</h3>
         <form>
@@ -46,9 +47,11 @@
                     <i class="ri-message-2-line"></i>
                 </div>
             </div>
-            <div class="contact-btn">
+            <div class="contact-btn float-right">
                 <button type="submit" class="default-btn">Send Message</button>
             </div>
         </form>
     </div>
+</div>
+
 </div>
