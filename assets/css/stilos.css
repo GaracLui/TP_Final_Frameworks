@@ -32,6 +32,14 @@ li {
 }
 
 
+/* card imagen */
+.card-img-top{
+    width: 348px;
+    height: 283px;
+    object-fit: cover;
+}
+
+
 /*
 .properties-item .properties-image .info-list {
   display: flex;
