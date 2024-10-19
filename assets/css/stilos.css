@@ -9,6 +9,14 @@ li {
 .hidden-details {
   display: none;
 }
+
+
+.navbar .navbar.light{
+    background-color: #e2dad7;
+}
+
+
+
 /*
 .properties-item .properties-image .info-list {
   display: flex;

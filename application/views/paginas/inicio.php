@@ -1,5 +1,5 @@
 <div class="main-banner-area" style="background-color: 
-#f1f0eb;">
+#e2dad7;">
 	<div class="container-fluid p-5 ">
 		<div class="row justify-content-center align-items-center">
 			<div class="col-xl-6 col-md-12">
@@ -106,7 +106,7 @@
 			</div>
 
 			<div class="col-xl-6 col-md-12">
-				<img src="#" alt="imagen">
+				<img src="<?php echo base_url(); ?>assets/img/index/banner1.jpg" alt="imagen" class="img-fluid">
 			</div>
 		</div>
 	
@@ -115,7 +115,7 @@
 <div class="properties-area p-5 ">
 	<div class="container">
 
-		<div class="section-title text-center">
+		<div class="section-title text-center py-3">
 			<h2>Propiedades destacadas</h2>
 			<p>Nuestras unidades destacadas de la semena, unidades recomendadas, habitables, comunable y acuntables</p>
 		</div>
@@ -314,10 +314,10 @@
 
 
 <!--ofertas-->
-<div class="properties-area p-5 " style="background-color: #f1f0eb;">
+<div class="properties-area p-5 " style="background-color: #f9f7f4;">
 	<div class="container">
 
-		<div class="section-title text-center">
+		<div class="section-title text-center py-3">
 			<h2>Propiedades en oferta</h2>
 			<p>Nuestras unidades destacadas de la semena, unidades recomendadas, habitables, comunable y acuntables</p>
 		</div>

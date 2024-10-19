@@ -16,7 +16,7 @@
 <body>
 
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light  shadow-sm">
+	<nav class="navbar navbar-expand-lg navbar-light  shadow-sm" style="background-color: #e2dad7;">
 		<div class="container-fluid pr-4 pl-4 pt-2 pb-2">
 			
 
