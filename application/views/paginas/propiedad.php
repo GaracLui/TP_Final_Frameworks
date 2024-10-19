@@ -1,13 +1,8 @@
 <div class="page-banner-area p-5" style="background-color: #e2dad7;">
-    <div class="container">
+    <div class="container d-flex justify-content-center">
         <div class="page-banner-content text-center align-items-center d-flex">
-            <h2 class="">Property Details</h2>
-            <ul class="list d-flex">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>Single Property</li>
-            </ul>
+            <h2 class="d-flex justify-content-center">Detalles propiedad</h2>
+            
         </div>
     </div>
 </div>
@@ -77,7 +72,7 @@
         <div class="row justify-content-center align-items-center">
             <div class="row row justify-content-center align-items-center">
 
-                <div class="col-lg-4 col-md-12 py-3 float-left">
+                <div class="col-lg-6 col-md-12 py-3 float-left">
                     <div class="col-lg-6 col-sm-6 py-3 float-left">
                         <div class="block-image">
                             <img class="img-fluid" src="<?php echo base_url(); ?>assets/img/properties/properties2.jpg" alt="image">
@@ -100,9 +95,9 @@
                     </div>
                 </div>
 
-                <div class="col-lg-8 col-md-12 py-3 float-right">
+                <div class="col-lg-6 col-md-12 py-3 float-right">
                     <div class="block-image">
-                        <img class="img-fluid" src="<?php echo base_url(); ?>assets/img/properties/properties2.jpg" alt="image">
+                        <img class="img-fluid" src="<?php echo base_url(); ?>assets/img/properties/properties2.jpg" alt="image" >
                     </div>
                 </div>
 
@@ -116,8 +111,8 @@
 
     <div class="property-details-inner-content">
         <div class="row justify-content-center">
-            <div class="col-xl-8 col-md-12 py-3 " style="background-color: #f9f7f4;">
-                <div class="col" 
+            <div class="col-xl-8 col-md-12 py-3 px-0" >
+                <div class="col-md-12 py-3" style="background-color: #f9f7f4;" 
                 >
                     
                     <div class="descrition ">
@@ -129,7 +124,7 @@
                     </div>
                 </div>  
                     
-                <div class="col" 
+                <div class="col-md-12 py-3"  style="background-color: #f9f7f4;"
                 >
 
                     
@@ -138,7 +133,7 @@
                             <h3>Location</h3>
                             <p>194 Mercer Street, NY 10012, USA</p>
                         </div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.6247953285215!2d-73.99921922358588!3d40.726275536740864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598fc76faf1d%3A0x8e82ec28918ad76e!2s194%20Mercer%20Street%2C%20New%20York%2C%20NY%2010012%2C%20USA!5e0!3m2!1sen!2sbd!4v1703668602409!5m2!1sen!2sbd"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.6247953285215!2d-73.99921922358588!3d40.726275536740864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598fc76faf1d%3A0x8e82ec28918ad76e!2s194%20Mercer%20Street%2C%20New%20York%2C%20NY%2010012%2C%20USA!5e0!3m2!1sen!2sbd!4v1703668602409!5m2!1sen!2sbd"></iframe>
                     </div>
                 </div>
                 

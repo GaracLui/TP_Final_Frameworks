@@ -1,13 +1,8 @@
-<div class="page-banner-area">
-    <div class="container">
-        <div class="page-banner-content">
-            <h2>Contact Us</h2>
-            <ul class="list">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>Contact Us</li>
-            </ul>
+<div class="page-banner-area p-5" style="background-color: #e2dad7;">
+    <div class="container d-flex justify-content-center">
+        <div class="page-banner-content text-center align-items-center d-flex">
+            <h2 class="d-flex justify-content-center">Contacto</h2>
+            
         </div>
     </div>
 </div>

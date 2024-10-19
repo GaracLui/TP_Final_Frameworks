@@ -2,6 +2,8 @@ li {
   list-style-type: none;
 }
 
+
+
 .card:hover .hidden-details {
   display: block;
 }
