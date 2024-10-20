@@ -1,10 +1,11 @@
+<!-- banner  -->
 <div class="main-banner-area" style="background-color: #f9f7f4;">
 	<div class="container-fluid p-5 ">
 		<div class="row justify-content-center align-items-center">
 			<div class="col-xl-6 col-md-12 py-5">
 				
 				<h1 class="py-5">¿ Que esperas de tu proximo hogar ?</h1>
-				
+				<!-- formulario  -->
 				<div class="search-info-tabs ">
 					<ul class="nav nav-tabs ">
 						<li class="nav-item">
@@ -101,7 +102,7 @@
 						</div>
 					</div>
 				</div>
-
+                <!-- fin formulario  -->
 			</div>
 
 			<div class="col-xl-6 col-md-12 py-5">
@@ -111,6 +112,7 @@
 	
 	</div>
 </div>
+<!-- fin banne  -->
 <div class="properties-area p-5 ">
 	<div class="container">
 
@@ -119,6 +121,7 @@
 			<p>Explora nuestra selección de propiedades destacadas y encuentra el hogar de tus sueños. Contamos con una amplia variedad de opciones para adaptarse a tus necesidades y estilo de vida, desde acogedoras casas de campo hasta espaciosos lofts urbanos. ¡Tenemos la propiedad perfecta esperándote!</p>
 		</div>
 
+        <!-- cards  -->
 		<div class="row justify-content-center">
 
 				<!-- Card  template-->
@@ -262,21 +265,22 @@
 
 
 		</div>
-
+        <!-- fin cards  -->
 
 	</div>
 </div>
 
 
-<!--ofertas-->
+<!-- ofertas -->
 <div class="properties-area p-5 " style="background-color: #f9f7f4;">
 	<div class="container">
 
 		<div class="section-title text-center py-3">
 			<h2>Propiedades en oferta</h2>
-			<p>Nuestras unidades destacadas de la semena, unidades recomendadas, habitables, comunable y acuntables</p>
+			<p>Descubre una selección exclusiva de propiedades con descuentos especiales. Ya sea que busques tu primer hogar o una inversión segura, tenemos la opción perfecta para ti. ¡Aprovecha nuestros planes de financiamiento y haz realidad tu sueño de tener casa propia!</p>
 		</div>
 
+        <!-- cards -->
 		<div class="row justify-content-center">
 
 			<!-- Card  template-->
@@ -421,7 +425,7 @@
             </div>
             <!-- Fin Card  template-->
 		</div>
-
+        <!-- fin cards -->
 
 	</div>
 </div>

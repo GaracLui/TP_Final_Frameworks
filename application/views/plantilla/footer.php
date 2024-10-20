@@ -3,14 +3,16 @@
 			<div class="container">
 				<div class="row ">
 
+					<!-- descripción pagina -->
 					<div class="col-lg-4 col-md-12 col-sm-6 py-3">
 	                    <div class="single-footer-widget ps-3">
 	                        <a class="navbar-brand " fla href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/img/logo/harmonia_text_white.png" alt="Harmonia Inmobiliaria" class="logo-image""></a>
 	                        <p>Harmonia Inmobiliaria. Compra, venta, alquiler y administración de propiedades. Construyendo hogares, creando futuros. Nuestra pasión es ayudarte a encontrar tu lugar en el mundo.</p>
 	                    </div>
 	                </div>
+	                <!-- fin descripción pagina -->
 
-
+	                <!-- links pagina -->
 					<div class="col-lg-4 col-sm-6 py-3">
 	                    <div class="single-footer-widget ps-3">
 	                        <h3>Links rapidos</h3>
@@ -23,19 +25,20 @@
 	                        </ul>
 	                    </div>
 	                </div>
+	                <!-- fin links pagina -->
 
-
+	                <!-- info de contacto -->
 					<div class="col-lg-4 col-sm-6 py-3">
 	                    <div class="single-footer-widget">
 	                        <h3>Información de contacto</h3>
 	                        <ul class="info-list pl-1">
 	                            <li>
 	                                <span>Dirección:</span>
-	                                285 avenida Este, Pueblo descripto, Pais especificado
+	                                Av. Corrientes, C1026 Cdad. Autónoma de Buenos Aires
 	                            </li>
 	                            <li>
 	                                <span>Email:</span>
-	                                <a href="mailto:HarmoniaInmobiliaria@objetivo.com.ar">designacionInmobiliaria@objetivo.com.ar</a>
+	                                <a href="mailto:HarmoniaInmobiliaria@objetivo.com.ar">HarmoniaInmobiliaria@objetivo.com.ar</a>
 	                            </li>
 	                            <li>
 	                                <span>Telefono:</span>
@@ -45,7 +48,7 @@
 	                        </ul>
 	                    </div>
 	                </div>
-
+					<!-- fin info de contacto -->
 	                
 	                
                 </div>

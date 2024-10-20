@@ -1,3 +1,4 @@
+<!-- banner  -->
 <div class="page-banner-area p-5" style="background-color: #f9f7f4;">
     <div class="container d-flex justify-content-center">
         <div class="page-banner-content text-center align-items-center d-flex">
@@ -6,9 +7,11 @@
         </div>
     </div>
 </div>
+<!-- fin banner  -->
 
 <div class="properties-wrap-area without-wrap-bg py-5" style="background-color: #f9f7f4;">
     <div class="container" >
+        <!-- formulario  -->
         <div class="search-info-tabs">
             <ul class="nav nav-tabs py-2">
                 <li class="nav-item">
@@ -105,7 +108,7 @@
                 </div>
             </div>
         </div>
-        
+        <!-- fin formulario  -->
         
     </div>
 </div>

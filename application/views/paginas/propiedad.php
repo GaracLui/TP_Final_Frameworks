@@ -1,3 +1,4 @@
+<!-- banner -->
 <div class="page-banner-area p-5" style="background-color: #f9f7f4;">
     <div class="container d-flex justify-content-center">
         <div class="page-banner-content text-center align-items-center d-flex">
@@ -6,15 +7,16 @@
         </div>
     </div>
 </div>
-
+<!-- fin banner -->
 
 
 
 <div class="container">
+    <!-- titulo ubicación precio -->
     <div class="property-details-content py-3" >
+        
 	    <div class="row justify-content-center align-items-center" style="background-color: #f9f7f4;">
-		
-            
+		 
                 
                 <div class="col-md-8 py-3 float-left" >
                     <div class="left-content float-left">
@@ -46,7 +48,7 @@
 
                     </div>
                 </div>
-
+                <!-- fin titulo ubicación precio -->
 
 
                 <div class="col-md-4 py-3">
@@ -58,17 +60,13 @@
                                         
                     </div>
                 </div>
-
-
-
-
             
         </div> 
-
+        
 	</div>
+    <!-- fin titulo ubicación precio -->
 
-    <!--- end desciption-->
-
+    <!-- imagenes -->
     <div class="property-details-image py-3">
         <div class="row justify-content-center align-items-center" style="background-color: #f9f7f4;">
             
@@ -107,11 +105,12 @@
         </div>
     </div>
       
-    <!--- end imagen-->
+    <!--- fin imagenes -->
 
 
     <div class="property-details-inner-content">
         <div class="row justify-content-center">
+            <!-- descripción, mapa -->
             <div class="col-xl-8 col-md-12 pb-3 px-0" >
                 
                     <div class="col-md-12 py-3" style="background-color: #f9f7f4;" 
@@ -148,8 +147,9 @@
                 
                 
             </div>
+            <!-- fin descripción, mapa -->
             
-            
+            <!-- formulario  -->
             <div class="col-xl-4 col-md-12 py-3" style="background-color: #f9f7f4;">
                 <div class="booking">
                     <form>
@@ -185,8 +185,8 @@
                     </form>
                 </div>
             </div>
-
+            <!-- fin descripción, mapa -->
         </div>
     </div>
-    <!--- end description-->
+   
 </div>					

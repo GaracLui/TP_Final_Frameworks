@@ -1,3 +1,4 @@
+<!-- banner -->
 <div class="page-banner-area p-5" style="background-color: #f9f7f4;">
     <div class="container d-flex justify-content-center">
         <div class="page-banner-content text-center align-items-center d-flex">
@@ -6,11 +7,13 @@
         </div>
     </div>
 </div>
+<!-- finbanner -->
 
 <div class="container py-5">
     <div class="col-lg-12 align-items-center py-5">
         <div class="contact-wrap-form">
             <h3 class="py-4">Ponte en contacto con nosotros</h3>
+            <!-- formulario  -->
             <form>
                 <div class="form-group py-2">
                     <label>Nombre</label>
@@ -51,6 +54,7 @@
                     <button type="submit" class="default-btn rounded-pill  py-2 px-4" style="background-color: #e2dad7;">Enviar Mensaje</button>
                 </div>
             </form>
+            <!-- fin formulario  -->
         </div>
     </div>
 

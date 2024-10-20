@@ -1,9 +1,10 @@
+/* Listas */
 li {
   list-style-type: none;
 }
 
 
-
+/* card ocultación  */
 .card:hover .hidden-details {
   display: block;
 }
@@ -11,6 +12,7 @@ li {
 .hidden-details {
   display: none;
 }
+
 
 
 .navbar .navbar.light{
@@ -39,6 +41,8 @@ li {
     object-fit: cover;
 }
 
+
+/* */
 .page-banner-area{
     background-color: #f9f7f4;
 }
