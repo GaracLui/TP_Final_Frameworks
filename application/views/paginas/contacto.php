@@ -1,4 +1,4 @@
-<div class="page-banner-area p-5" style="background-color: #e2dad7;">
+<div class="page-banner-area p-5" style="background-color: #f9f7f4;">
     <div class="container d-flex justify-content-center">
         <div class="page-banner-content text-center align-items-center d-flex">
             <h2 class="d-flex justify-content-center">Contacto</h2>
@@ -7,51 +7,51 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container py-5">
     <div class="col-lg-12 align-items-center py-5">
-    <div class="contact-wrap-form">
-        <h3>Get In Touch</h3>
-        <form>
-            <div class="form-group">
-                <label>Your Name</label>
-                <input type="text" class="form-control" placeholder="Enter your name">
-                <div class="icon">
-                    <i class="ri-user-3-line"></i>
+        <div class="contact-wrap-form">
+            <h3 class="py-4">Ponte en contacto con nosotros</h3>
+            <form>
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" class="form-control rounded-pill" placeholder="Ingresa tu nombre">
+                    <div class="icon">
+                        <i class="ri-user-3-line"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                <label>Email Address</label>
-                <input type="email" class="form-control" placeholder="Enter email address">
-                <div class="icon">
-                    <i class="ri-mail-line"></i>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control rounded-pill" placeholder="Ingresa tu email">
+                    <div class="icon">
+                        <i class="ri-mail-line"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                <label>Your Phone</label>
-                <input type="phone" class="form-control" placeholder="Enter your phone">
-                <div class="icon">
-                    <i class="ri-phone-line"></i>
+                <div class="form-group">
+                    <label>Número de Telefono</label>
+                    <input type="phone" class="form-control rounded-pill" placeholder="Ejemplo: +15345678">
+                    <div class="icon">
+                        <i class="ri-phone-line"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                <label>Your Subject</label>
-                <input type="text" class="form-control" placeholder="Enter your subject">
-                <div class="icon">
-                    <i class="ri-file-line"></i>
+                <div class="form-group">
+                    <label>Tema de la Consulta</label>
+                    <input type="text" class="form-control rounded-pill" placeholder="Ejemplo: Recorrido por la propiedad.......">
+                    <div class="icon">
+                        <i class="ri-file-line"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="form-group extra-top">
-                <label>Your Message</label>
-                <textarea class="form-control" placeholder="Your message here"></textarea>
-                <div class="icon">
-                    <i class="ri-message-2-line"></i>
+                <div class="form-group extra-top">
+                    <label>Tu Consulta</label>
+                    <textarea class="form-control rounded" placeholder="Estoy interezado en la propiedad......."></textarea>
+                    <div class="icon">
+                        <i class="ri-message-2-line"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="contact-btn float-right">
-                <button type="submit" class="default-btn">Send Message</button>
-            </div>
-        </form>
+                <div class="contact-btn float-right">
+                    <button type="submit" class="default-btn rounded-pill  py-2 px-4">Enviar Mensaje</button>
+                </div>
+            </form>
+        </div>
     </div>
-</div>
 
 </div>

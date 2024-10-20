@@ -1,4 +1,4 @@
-<div class="page-banner-area p-5" style="background-color: #e2dad7;">
+<div class="page-banner-area p-5" style="background-color: #f9f7f4;">
     <div class="container d-flex justify-content-center">
         <div class="page-banner-content text-center align-items-center d-flex">
             <h2 class="d-flex justify-content-center">Property Filter</h2>
@@ -10,101 +10,101 @@
 <div class="properties-wrap-area without-wrap-bg py-5" style="background-color: #f1f0eb;">
     <div class="container" >
         <div class="search-info-tabs">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">
-                                Compra
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                Alquiler
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="tab-content">
-                        <div class="tab-pane active">
-                            <form class="search-form">
-                                <div class="row justify-content-center align-items-end">
+            <ul class="nav nav-tabs py-2">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        Compra
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Alquiler
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active">
+                    <form class="search-form">
+                        <div class="row justify-content-center align-items-end">
 
 
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="form-group">
-                                            <label>Buscando</label>
-                                            <select class="form-select form-control">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="form-group">
+                                    <label>Buscando</label>
+                                    <select class="form-select form-control rounded-pill">
 
-                                                <option selected>Tipo de propiedad</option>
-                                                <option value="1">Familiar</option>
-                                                <option value="2">Industrial</option>
-                                                <option value="3">Casa de campo</option>
-                                                <option value="4">Apartamento</option>
-
-
-                                            </select>
-                                        </div>
-                                    </div>
+                                        <option selected>Tipo de propiedad</option>
+                                        <option value="1">Familiar</option>
+                                        <option value="2">Industrial</option>
+                                        <option value="3">Casa de campo</option>
+                                        <option value="4">Apartamento</option>
 
 
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="form-group">
-                                            <label>Ubicación</label>
-                                            <select class="form-select form-control">
-
-                                                <option selected>Todas las provincias</option>
-                                                <option value="1">San Luis</option>
-                                                <option value="2">Mendoza</option>
-                                                <option value="3">Córdoba</option>
-                                                <option value="4">La Pampa</option>
-
-
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="form-group">
-                                            <label>Presupuesto</label>
-                                            <input type="text" class="form-control" placeholder="Precio maximo">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="form-group">
-                                            <label>Tamaño Minimo</label>
-                                            <input type="text" class="form-control" placeholder="Tamaño de la propiedad">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="form-group">
-                                            <label>Estado</label>
-                                            <select class="form-select form-control">
-
-                                                <option selected>Estado de la propiedad</option>
-                                                <option value="1">En venta</option>
-                                                <option value="2">Casa abierta</option>
-                                                <option value="3">Oferta</option>
-                                                <option value="4">Vendida</option>
-
-
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="form-group">
-                                            <button type="submit" class="default-btn" >
-                                            Buscar Propiedad
-                                            </button>
-                                        </div>
-                                    </div>
-
-
+                                    </select>
                                 </div>
-                            </form>
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-6">
+                                <div class="form-group">
+                                    <label>Ubicación</label>
+                                    <select class="form-select form-control rounded-pill">
+
+                                        <option selected>Todas las provincias</option>
+                                        <option value="1">San Luis</option>
+                                        <option value="2">Mendoza</option>
+                                        <option value="3">Córdoba</option>
+                                        <option value="4">La Pampa</option>
+
+
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <div class="form-group">
+                                    <label>Presupuesto</label>
+                                    <input type="text" class="form-control rounded-pill" placeholder="Precio maximo">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <div class="form-group">
+                                    <label>Tamaño Minimo</label>
+                                    <input type="text" class="form-control rounded-pill" placeholder="Tamaño de la propiedad">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <div class="form-group ">
+                                    <label>Estado</label>
+                                    <select class="form-select form-control rounded-pill">
+
+                                        <option selected>Estado de la propiedad</option>
+                                        <option value="1">En venta</option>
+                                        <option value="2">Casa abierta</option>
+                                        <option value="3">Oferta</option>
+                                        <option value="4">Vendida</option>
+
+
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <div class="form-group rounded-pill">
+                                    <button type="submit" class="default-btn rounded-pill  py-2 px-4" >
+                                    Buscar Propiedad
+                                    </button>
+                                </div>
+                            </div>
+
+
                         </div>
-                    </div>
+                    </form>
                 </div>
+            </div>
+        </div>
         
         
     </div>

@@ -1,5 +1,4 @@
-<div class="main-banner-area" style="background-color: 
-#e2dad7;">
+<div class="main-banner-area" style="background-color: #f9f7f4;">
 	<div class="container-fluid p-5 ">
 		<div class="row justify-content-center align-items-center">
 			<div class="col-xl-6 col-md-12 py-5">
@@ -7,7 +6,7 @@
 				<h1 class="py-5">¿ Que esperas de tu proximo hogar ?</h1>
 				
 				<div class="search-info-tabs">
-					<ul class="nav nav-tabs">
+					<ul class="nav nav-tabs py-2">
 						<li class="nav-item">
 							<a class="nav-link active" href="#">
 								Compra
@@ -28,7 +27,7 @@
 									<div class="col-lg-4 col-md-6">
 										<div class="form-group">
 											<label>Buscando</label>
-											<select class="form-select form-control">
+											<select class="form-select form-control rounded-pill">
 
 												<option selected>Tipo de propiedad</option>
 												<option value="1">Familiar</option>
@@ -45,7 +44,7 @@
 									<div class="col-lg-4 col-md-6">
 										<div class="form-group">
 											<label>Ubicación</label>
-											<select class="form-select form-control">
+											<select class="form-select form-control rounded-pill">
 
 												<option selected>Todas las provincias</option>
 												<option value="1">San Luis</option>
@@ -61,21 +60,21 @@
 									<div class="col-lg-4 col-md-6">
 										<div class="form-group">
 											<label>Presupuesto</label>
-											<input type="text" class="form-control" placeholder="Precio maximo">
+											<input type="text" class="form-control rounded-pill" placeholder="Precio maximo">
 										</div>
 									</div>
 
 									<div class="col-lg-4 col-md-6">
 										<div class="form-group">
 											<label>Tamaño Minimo</label>
-											<input type="text" class="form-control" placeholder="Tamaño de la propiedad">
+											<input type="text" class="form-control rounded-pill" placeholder="Tamaño de la propiedad">
 										</div>
 									</div>
 
 									<div class="col-lg-4 col-md-6">
-										<div class="form-group">
+										<div class="form-group ">
 											<label>Estado</label>
-											<select class="form-select form-control">
+											<select class="form-select form-control rounded-pill">
 
 												<option selected>Estado de la propiedad</option>
 												<option value="1">En venta</option>
@@ -89,8 +88,8 @@
 									</div>
 
 									<div class="col-lg-4 col-md-6">
-										<div class="form-group">
-											<button type="submit" class="default-btn" >
+										<div class="form-group rounded-pill">
+											<button type="submit" class="default-btn rounded-pill  py-2 px-4" >
 											Buscar Propiedad
 											</button>
 										</div>

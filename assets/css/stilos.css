@@ -14,7 +14,7 @@ li {
 
 
 .navbar .navbar.light{
-    background-color: #e2dad7;
+    background-color: #f9f7f4;
 }
 
 /* Estilos base para la imagen */
@@ -37,6 +37,10 @@ li {
     width: 348px;
     height: 283px;
     object-fit: cover;
+}
+
+.page-banner-area{
+    background-color: #f9f7f4;
 }
 
 
