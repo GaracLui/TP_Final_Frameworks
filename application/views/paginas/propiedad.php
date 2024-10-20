@@ -181,7 +181,7 @@
                                 <i class="ri-pencil-line"></i>
                             </div>
                         </div>
-                        <button type="submit" class="default-btn float-right rounded-pill  py-2 px-4">Enviar Mensaje</button>
+                        <button type="submit" class="default-btn float-right rounded-pill  py-2 px-4 " style="background-color: #e2dad7;">Enviar Mensaje</button>
                     </form>
                 </div>
             </div>

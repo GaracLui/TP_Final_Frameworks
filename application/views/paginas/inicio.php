@@ -5,8 +5,8 @@
 				
 				<h1 class="py-5">¿ Que esperas de tu proximo hogar ?</h1>
 				
-				<div class="search-info-tabs">
-					<ul class="nav nav-tabs py-2">
+				<div class="search-info-tabs ">
+					<ul class="nav nav-tabs ">
 						<li class="nav-item">
 							<a class="nav-link active" href="#">
 								Compra
@@ -24,7 +24,7 @@
 								<div class="row justify-content-center align-items-end">
 
 
-									<div class="col-lg-4 col-md-6">
+									<div class="col-lg-4 col-md-6 py-3">
 										<div class="form-group">
 											<label>Buscando</label>
 											<select class="form-select form-control rounded-pill">
@@ -41,7 +41,7 @@
 									</div>
 
 
-									<div class="col-lg-4 col-md-6">
+									<div class="col-lg-4 col-md-6 py-3">
 										<div class="form-group">
 											<label>Ubicación</label>
 											<select class="form-select form-control rounded-pill">
@@ -57,21 +57,21 @@
 										</div>
 									</div>
 
-									<div class="col-lg-4 col-md-6">
+									<div class="col-lg-4 col-md-6 py-3">
 										<div class="form-group">
 											<label>Presupuesto</label>
 											<input type="text" class="form-control rounded-pill" placeholder="Precio maximo">
 										</div>
 									</div>
 
-									<div class="col-lg-4 col-md-6">
+									<div class="col-lg-4 col-md-6 py-3">
 										<div class="form-group">
 											<label>Tamaño Minimo</label>
 											<input type="text" class="form-control rounded-pill" placeholder="Tamaño de la propiedad">
 										</div>
 									</div>
 
-									<div class="col-lg-4 col-md-6">
+									<div class="col-lg-4 col-md-6 py-3">
 										<div class="form-group ">
 											<label>Estado</label>
 											<select class="form-select form-control rounded-pill">
@@ -87,9 +87,9 @@
 										</div>
 									</div>
 
-									<div class="col-lg-4 col-md-6">
+									<div class="col-lg-4 col-md-6 py-3">
 										<div class="form-group rounded-pill">
-											<button type="submit" class="default-btn rounded-pill  py-2 px-4" >
+											<button type="submit" class="default-btn rounded-pill  py-2 px-4" style="background-color: #e2dad7;" >
 											Buscar Propiedad
 											</button>
 										</div>
@@ -121,135 +121,145 @@
 
 		<div class="row justify-content-center">
 
-			<!-- Card  template-->
-			<div class="col-xl-4 col-md-6 py-3">
-				<div class="card">
-					  <img src="http://127.0.0.1/TP_Final_Frameworks/assets/img/properties/properties1.jpg" class="card-img-top" alt="Property Image">
-					  <div class="card-body">
-						    <h5 class="card-title">Departamento chic</h5>
-						    <p class="card-text">8094 dkjtkdr Street, NY 102, ARG</p>
-						    <p class="card-text">Alquiler</p>
-						    <h5 class="card-text  price float-right">$74,000</h5>
-						    <!-- Si hay descuento 
-						    <span class="card-text  price float-right text-secondary"><del>$15,000 / Mes</del></span>
-						     fin Si hay descuento -->
-						    <div class="card-text hidden-details">
-							    <ul class="list-group list-group-flush">
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="bed" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Cuartos: 4</span>
+				<!-- Card  template-->
+                <div class="col-xl-4 col-md-6 py-3">
+                    <div class="card">
+                        <a href="<?php echo base_url(); ?>inmobiliaria/propiedad">
+                            <img src="<?php echo base_url(); ?>assets/img/properties/properties6.jpg" class="card-img-top" alt="Property Image">
+                        </a>
+                        
+                        <div class="card-body">
+                                <h5 class="card-title">Casa Dos Pisos</h5>
+                                <p class="card-text">La Reserva Cardales, Campana</p>
+                                <p class="card-text">Compra</p>
+                                <h5 class="card-text price float-right d-flex">USD 600.000</h5>
+                                <!-- Si hay descuento 
+                                <span class="card-text  price float-right text-secondary"><del>$15,000 / Mes</del></span>
+                                 fin Si hay descuento -->
+                                <div class="card-text hidden-details float-left">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <div class="icon float-left pr-1">
+                                                <img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="bed" style="filter: invert(100%);">
+                                            </div>
+                                            <span>Ambientes: 6</span>
 
-							      	</li>
+                                        </li>
 
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/bathroom.svg" alt="bathroom" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Baños: 2</span>
-							      	</li>
-
-
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/area.svg" alt="area" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Metros cuadrados: 710 </span>
-							      	</li>
-							    </ul>
-						    </div>
-					  </div>
-				</div>
-			</div>
-			<!-- Fin Card  template-->
-			
-			<!-- Card  template-->
-			<div class="col-xl-4 col-md-6 py-3">
-				<div class="card">
-					  <img src="http://127.0.0.1/TP_Final_Frameworks/assets/img/properties/properties2.jpg" class="card-img-top" alt="Property Image">
-					  <div class="card-body">
-						    <h5 class="card-title">Departamento chic</h5>
-						    <p class="card-text">8094 dkjtkdr Street, NY 102, ARG</p>
-						    <p class="card-text">Alquiler</p>
-						    <h5 class="card-text  price float-right">$100,000</h5>
-						    <!-- Si hay descuento 
-						    <span class="card-text  price float-right text-secondary"><del>$15,000 / Mes</del></span>
-						     fin Si hay descuento -->
-						    <div class="card-text hidden-details">
-							    <ul class="list-group list-group-flush">
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="bed" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Cuartos: 4</span>
-
-							      	</li>
-
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/bathroom.svg" alt="bathroom" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Baños: 2</span>
-							      	</li>
+                                        <li class="list-group-item">
+                                            <div class="icon float-left pr-1">
+                                                <img src="<?php echo base_url(); ?>assets/img/properties/bathroom.svg" alt="bathroom" style="filter: invert(100%);">
+                                            </div>
+                                            <span>Baños: 4</span>
+                                        </li>
 
 
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/area.svg" alt="area" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Metros cuadrados: 710 </span>
-							      	</li>
-							    </ul>
-						    </div>
-					  </div>
-				</div>
-			</div>
-			<!-- Fin Card  template-->
-			
+                                        <li class="list-group-item">
+                                            <div class="icon float-left pr-1">
+                                                <img src="<?php echo base_url(); ?>assets/img/properties/area.svg" alt="area" style="filter: invert(100%);">
+                                            </div>
+                                            <span>Metros cuadrados: 330 </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- Fin Card  template-->
+		
+		
+				<!-- Card  template-->
+                <div class="col-xl-4 col-md-6 py-3">
+                    <div class="card">
+                        <a href="<?php echo base_url(); ?>inmobiliaria/propiedad">
+                            <img src="<?php echo base_url(); ?>assets/img/properties/properties1.jpg" class="card-img-top" alt="Property Image">
+                        </a>
+                        
+                        <div class="card-body">
+                                <h5 class="card-title">Departamento en excelente zona</h5>
+                                <p class="card-text">Laprida al 1700 Entre Caseros y Chacabuco</p>
+                                <p class="card-text">Compra</p>
+                                <h5 class="card-text price float-right d-flex">USD 192.000</h5>
+                                <!-- Si hay descuento 
+                                <span class="card-text  price float-right text-secondary"><del>$15,000 / Mes</del></span>
+                                 fin Si hay descuento -->
+                                <div class="card-text hidden-details float-left">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <div class="icon float-left pr-1">
+                                                <img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="bed" style="filter: invert(100%);">
+                                            </div>
+                                            <span>Ambientes: 3</span>
 
-			<!-- Card  template-->
-			<div class="col-xl-4 col-md-6 py-3">
-				<div class="card">
-					  <img src="http://127.0.0.1/TP_Final_Frameworks/assets/img/properties/properties3.jpg" class="card-img-top" alt="Property Image">
-					  <div class="card-body">
-						    <h5 class="card-title">Departamento chic</h5>
-						    <p class="card-text">8094 dkjtkdr Street, NY 102, ARG</p>
-						    <p class="card-text">Alquiler</p>
-						    <h5 class="card-text  price float-right">$82,000</h5>
-						    <!-- Si hay descuento 
-						    <span class="card-text  price float-right text-secondary"><del>$15,000 / Mes</del></span>
-						     fin Si hay descuento -->
-						    <div class="card-text hidden-details">
-							    <ul class="list-group list-group-flush">
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="bed" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Cuartos: 4</span>
+                                        </li>
 
-							      	</li>
-
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/bathroom.svg" alt="bathroom" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Baños: 2</span>
-							      	</li>
+                                        <li class="list-group-item">
+                                            <div class="icon float-left pr-1">
+                                                <img src="<?php echo base_url(); ?>assets/img/properties/bathroom.svg" alt="bathroom" style="filter: invert(100%);">
+                                            </div>
+                                            <span>Baños: 2</span>
+                                        </li>
 
 
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/area.svg" alt="area" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Metros cuadrados: 710 </span>
-							      	</li>
-							    </ul>
-						    </div>
-					  </div>
-				</div>
-			</div>
-			<!-- Fin Card  template-->
+                                        <li class="list-group-item">
+                                            <div class="icon float-left pr-1">
+                                                <img src="<?php echo base_url(); ?>assets/img/properties/area.svg" alt="area" style="filter: invert(100%);">
+                                            </div>
+                                            <span>Metros cuadrados: 67 </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- Fin Card  template-->
+
+							<!-- Card  template-->
+                <div class="col-xl-4 col-md-6 py-3">
+                    <div class="card">
+                        <a href="<?php echo base_url(); ?>inmobiliaria/propiedad">
+                            <img src="<?php echo base_url(); ?>assets/img/properties/properties3.jpg" class="card-img-top" alt="Property Image">
+                        </a>
+                        
+                        <div class="card-body">
+                                <h5 class="card-title">Departamento</h5>
+                                <p class="card-text">Arcos al 2600</p>
+                                <p class="card-text">Alquiler</p>
+                                <h5 class="card-text price float-right d-flex">USD 5.000 / Mes</h5>
+                                <!-- Si hay descuento 
+                                <span class="card-text  price float-right text-secondary"><del>$15,000 / Mes</del></span>
+                                 fin Si hay descuento -->
+                                <div class="card-text hidden-details float-left">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <div class="icon float-left pr-1">
+                                                <img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="bed" style="filter: invert(100%);">
+                                            </div>
+                                            <span>Ambientes: 5</span>
+
+                                        </li>
+
+                                        <li class="list-group-item">
+                                            <div class="icon float-left pr-1">
+                                                <img src="<?php echo base_url(); ?>assets/img/properties/bathroom.svg" alt="bathroom" style="filter: invert(100%);">
+                                            </div>
+                                            <span>Baños: 4</span>
+                                        </li>
+
+
+                                        <li class="list-group-item">
+                                            <div class="icon float-left pr-1">
+                                                <img src="<?php echo base_url(); ?>assets/img/properties/area.svg" alt="area" style="filter: invert(100%);">
+                                            </div>
+                                            <span>Metros cuadrados: 194 </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- Fin Card  template-->
+
 
 		</div>
 
@@ -270,134 +280,146 @@
 		<div class="row justify-content-center">
 
 			<!-- Card  template-->
-			<div class="col-xl-4 col-md-6 py-3">
-				<div class="card">
-					  <img src="http://127.0.0.1/TP_Final_Frameworks/assets/img/properties/properties1.jpg" class="card-img-top" alt="Property Image">
-					  <div class="card-body">
-						    <h5 class="card-title">Departamento chic</h5>
-						    <p class="card-text">8094 dkjtkdr Street, NY 102, ARG</p>
-						    <p class="card-text">Alquiler</p>
-						    <h5 class="card-text  price float-right">$11,000 / Mes</h5>
-						    <!-- Si hay descuento -->
-						    <span class="card-text  price float-right text-secondary"><del>$15,000 / Mes</del></span>
-						     <!-- fin Si hay descuento -->
-						    <div class="card-text hidden-details">
-							    <ul class="list-group list-group-flush">
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="bed" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Cuartos: 4</span>
+            <div class="col-xl-4 col-md-6 py-3">
+                <div class="card">
+                    <a href="<?php echo base_url(); ?>inmobiliaria/propiedad">
+                        <img src="<?php echo base_url(); ?>assets/img/properties/properties2.jpg" class="card-img-top" alt="Property Image">
+                    </a>
+                    
+                    <div class="card-body">
+                            <h5 class="card-title">Casa Vacacional</h5>
+                            <p class="card-text">Av Ricardo Balbin al 2620</p>
+                            <p class="card-text">Compra</p>
+                            <h5 class="card-text price float-right d-flex">USD 176.000</h5>
+                            <!-- Si hay descuento -->
+                            <span class="card-text  price float-right d-flex text-secondary"><del>USD 196.700</del></span>
+                             <!--fin Si hay descuento -->
+                            <div class="card-text hidden-details float-left">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <div class="icon float-left pr-1">
+                                            <img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="bed" style="filter: invert(100%);">
+                                        </div>
+                                        <span>Ambientes: 3</span>
 
-							      	</li>
+                                    </li>
 
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/bathroom.svg" alt="bathroom" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Baños: 2</span>
-							      	</li>
+                                    <li class="list-group-item">
+                                        <div class="icon float-left pr-1">
+                                            <img src="<?php echo base_url(); ?>assets/img/properties/bathroom.svg" alt="bathroom" style="filter: invert(100%);">
+                                        </div>
+                                        <span>Baños: 1</span>
+                                    </li>
 
 
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/area.svg" alt="area" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Metros cuadrados: 710 </span>
-							      	</li>
-							    </ul>
-						    </div>
-					  </div>
-				</div>
-			</div>
-			<!-- Fin Card  template-->
+                                    <li class="list-group-item">
+                                        <div class="icon float-left pr-1">
+                                            <img src="<?php echo base_url(); ?>assets/img/properties/area.svg" alt="area" style="filter: invert(100%);">
+                                        </div>
+                                        <span>Metros cuadrados: 60 </span>
+                                    </li>
+                                </ul>
+                            </div>
+                      </div>
+                </div>
+            </div>
+            <!-- Fin Card  template-->
+
 
 			<!-- Card  template-->
-			<div class="col-xl-4 col-md-6 py-3">
-				<div class="card">
-					  <img src="http://127.0.0.1/TP_Final_Frameworks/assets/img/properties/properties4.jpg" class="card-img-top" alt="Property Image">
-					  <div class="card-body">
-						    <h5 class="card-title">Departamento chic</h5>
-						    <p class="card-text">8094 dkjtkdr Street, NY 102, ARG</p>
-						    <p class="card-text">Alquiler</p>
-						    <h5 class="card-text  price float-right">$11,000 / Mes</h5>
-						    <!-- Si hay descuento -->
-						    <span class="card-text  price float-right text-secondary"><del>$15,000 / Mes</del></span>
-						    <!-- fin Si hay descuento -->
-						    <div class="card-text hidden-details">
-							    <ul class="list-group list-group-flush">
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="bed" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Cuartos: 4</span>
+            <div class="col-xl-4 col-md-6 py-3">
+                <div class="card">
+                    <a href="<?php echo base_url(); ?>inmobiliaria/propiedad">
+                        <img src="<?php echo base_url(); ?>assets/img/properties/properties4.jpg" class="card-img-top" alt="Property Image">
+                    </a>
+                    
+                    <div class="card-body">
+                            <h5 class="card-title">Mini Casa</h5>
+                            <p class="card-text">Cazón al 600</p>
+                            <p class="card-text">Compra</p>
+                            <h5 class="card-text price float-right d-flex">USD 114.934</h5>
+                            <!-- Si hay descuento -->
+                            <span class="card-text  price float-right d-flex text-secondary"><del>USD 131.934</del></span>
+                             <!--fin Si hay descuento -->
+                            <div class="card-text hidden-details float-left">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <div class="icon float-left pr-1">
+                                            <img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="bed" style="filter: invert(100%);">
+                                        </div>
+                                        <span>Ambientes: 2</span>
 
-							      	</li>
+                                    </li>
 
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/bathroom.svg" alt="bathroom" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Baños: 2</span>
-							      	</li>
-
-
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/area.svg" alt="area" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Metros cuadrados: 710 </span>
-							      	</li>
-							    </ul>
-						    </div>
-					  </div>
-				</div>
-			</div>
-			<!-- Fin Card  template-->
-
-					<!-- Card  template-->
-			<div class="col-xl-4 col-md-6 py-3">
-				<div class="card">
-					  <img src="http://127.0.0.1/TP_Final_Frameworks/assets/img/properties/properties2.jpg" class="card-img-top" alt="Property Image">
-					  <div class="card-body">
-						    <h5 class="card-title">Departamento chic</h5>
-						    <p class="card-text">8094 dkjtkdr Street, NY 102, ARG</p>
-						    <p class="card-text">Alquiler</p>
-						    <h5 class="card-text  price float-right">$11,000 / Mes</h5>
-						    <!-- Si hay descuento -->
-						    <span class="card-text  price float-right text-secondary"><del>$15,000 / Mes</del></span>
-						     <!-- fin Si hay descuento -->
-						    <div class="card-text hidden-details">
-							    <ul class="list-group list-group-flush">
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="bed" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Cuartos: 4</span>
-
-							      	</li>
-
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/bathroom.svg" alt="bathroom" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Baños: 2</span>
-							      	</li>
+                                    <li class="list-group-item">
+                                        <div class="icon float-left pr-1">
+                                            <img src="<?php echo base_url(); ?>assets/img/properties/bathroom.svg" alt="bathroom" style="filter: invert(100%);">
+                                        </div>
+                                        <span>Baños: 1</span>
+                                    </li>
 
 
-							      	<li class="list-group-item">
-							      		<div class="icon float-left pr-1">
-		                                    <img src="<?php echo base_url(); ?>assets/img/properties/area.svg" alt="area" style="filter: invert(100%);">
-		                                </div>
-		                                <span>Metros cuadrados: 710 </span>
-							      	</li>
-							    </ul>
-						    </div>
-					  </div>
-				</div>
-			</div>
-			<!-- Fin Card  template-->
+                                    <li class="list-group-item">
+                                        <div class="icon float-left pr-1">
+                                            <img src="<?php echo base_url(); ?>assets/img/properties/area.svg" alt="area" style="filter: invert(100%);">
+                                        </div>
+                                        <span>Metros cuadrados: 62 </span>
+                                    </li>
+                                </ul>
+                            </div>
+                      </div>
+                </div>
+            </div>
+            <!-- Fin Card  template-->
 
+
+
+
+			<!-- Card  template-->
+            <div class="col-xl-4 col-md-6 py-3">
+                <div class="card">
+                    <a href="<?php echo base_url(); ?>inmobiliaria/propiedad">
+                        <img src="<?php echo base_url(); ?>assets/img/index/banner1.jpg" class="card-img-top" alt="Property Image">
+                    </a>
+                    
+                    <div class="card-body">
+                            <h5 class="card-title">Casona Moderna</h5>
+                            <p class="card-text">Casonas del Golf - Villa Allende</p>
+                            <p class="card-text">Compra</p>
+                            <h5 class="card-text price float-right d-flex">USD 270.000</h5>
+                            <!-- Si hay descuento -->
+                            <span class="card-text  price float-right d-flex text-secondary"><del>USD 320.000</del></span>
+                             <!--fin Si hay descuento -->
+                            <div class="card-text hidden-details float-left">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <div class="icon float-left pr-1">
+                                            <img src="<?php echo base_url(); ?>assets/img/properties/bed.svg" alt="bed" style="filter: invert(100%);">
+                                        </div>
+                                        <span>Ambientes: 3</span>
+
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <div class="icon float-left pr-1">
+                                            <img src="<?php echo base_url(); ?>assets/img/properties/bathroom.svg" alt="bathroom" style="filter: invert(100%);">
+                                        </div>
+                                        <span>Baños: 2</span>
+                                    </li>
+
+
+                                    <li class="list-group-item">
+                                        <div class="icon float-left pr-1">
+                                            <img src="<?php echo base_url(); ?>assets/img/properties/area.svg" alt="area" style="filter: invert(100%);">
+                                        </div>
+                                        <span>Metros cuadrados: 134 </span>
+                                    </li>
+                                </ul>
+                            </div>
+                      </div>
+                </div>
+            </div>
+            <!-- Fin Card  template-->
 		</div>
 
 
